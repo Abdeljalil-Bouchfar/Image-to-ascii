@@ -8,7 +8,8 @@
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "stb_image_write.h"
 
-const char ASCII_CHARS[11] = {' ',',',':',';','+','*','?','%','S','#','@'};
+//TODO: Try more charts
+const char ASCII_CHARS[11] = {'.', ',', ':', ';', '+', '*', '?', '%', 'S', '#', '@'};
 
 int main(int argc, char *argv[])
 {
@@ -26,6 +27,8 @@ int main(int argc, char *argv[])
 
     // Load the image
     unsigned char *image = stbi_load(argv[1], &width, &height, &channels, 0);
+
+    //TODO: Compress big images to 1000
 
     // Check if image loading fails
     if (image == NULL)
@@ -52,7 +55,9 @@ int main(int argc, char *argv[])
 
         // If it's the end of the image width add new line
         if (pexel % width == 0)
+        {
             fputc(10, outText);
+        }
         char x = ASCII_CHARS[grayPexel / 25];
         fputc(x, outText);
     }
