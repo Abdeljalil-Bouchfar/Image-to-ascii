@@ -1,8 +1,0 @@
-{
-  "files.associations": {
-    "stb_image.h": "c",
-    "bmp.h": "c",
-    "getopt.h": "c",
-    "ios": "c"
-  }
-}
