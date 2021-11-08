@@ -29,19 +29,18 @@ This program using [stb](https://github.com/nothings/stb) library to load images
 ```
 ## Samples
 
-Solarized dark             |  Solarized Ocean
+simon.png            |  simon.txt
 :-------------------------:|:-------------------------:
 ![](images/simon.png)  |  ![](outs/simon_ascii.png)
 
-![alt-tag](images/simon.png)
-![alt-tag](outs/simon_ascii.png)
+---
+
+elon-musk.png            |  elon-musk.txt
+:-------------------------:|:-------------------------:
+![](images/elon-musk.png)  |  ![](outs/elon-musk.png)
 
 ---
 
-![alt-tag](images/elon-musk.png)
-![alt-tag](outs/elon_musk_ascii.png)
-
----
-
-![alt-tag](images/monaliza.jpg)
-![alt-tag](outs/monaliza_ascii.png)
+monaliza.png            |  monaliza.txt
+:-------------------------:|:-------------------------:
+![](images/monaliza.jpg)  |  ![](outs/monaliza_ascii.png)
