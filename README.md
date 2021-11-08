@@ -27,3 +27,17 @@ This program using [stb](https://github.com/nothings/stb) library to load images
 	 - then put an ascii char that match the gray value grade in the txt file
 	 
 ```
+## Samples
+
+![alt-tag](images/simon.png)
+![alt-tag](outs/simon-ascii.png)
+
+---
+
+![alt-tag](images/elon-musk.png)
+![alt-tag](outs/elon-musk-ascii.png)
+
+---
+
+![alt-tag](images/monaliza.jpg)
+![alt-tag](outs/monaliza-ascii.png)
