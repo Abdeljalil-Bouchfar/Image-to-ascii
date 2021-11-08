@@ -43,4 +43,4 @@ elon-musk.png            |  elon-musk.txt
 
 monaliza.png            |  monaliza.txt
 :-------------------------:|:-------------------------:
-![](images/monaliza.jpg)  |  ![](outs/monaliza_ascii.png)
+![](images/monaliza.jpg)  |  ![](outs/elon_musk_ascii.png)
