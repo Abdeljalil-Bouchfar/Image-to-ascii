@@ -30,14 +30,14 @@ This program using [stb](https://github.com/nothings/stb) library to load images
 ## Samples
 
 ![alt-tag](images/simon.png)
-![alt-tag](outs/simon ascii.png)
+![alt-tag](outs/simon-ascii.png)
 
 ---
 
 ![alt-tag](images/elon-musk.png)
-![alt-tag](outs/elon musk ascii.png)
+![alt-tag](outs/elon-musk-ascii.png)
 
 ---
 
 ![alt-tag](images/monaliza.jpg)
-![alt-tag](outs/monaliza ascii.png)
+![alt-tag](outs/monaliza-ascii.png)
