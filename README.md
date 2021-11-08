@@ -6,10 +6,10 @@ Convert images to ASCII art.
 ```
 
     Usage:
-      compile the program to get *.out file
-         *.out [image]
+    	compile the program to get *.out file
+    	*.out [image]
     Parameters:
-        [image]   The image to convert. Supports many formats.
+    	[image]   The image to convert. Supports many formats.
 
     Example:
         gcc img_to_ascii.c
