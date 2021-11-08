@@ -29,6 +29,10 @@ This program using [stb](https://github.com/nothings/stb) library to load images
 ```
 ## Samples
 
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](images/simon.png)  |  ![](outs/simon_ascii.png)
+
 ![alt-tag](images/simon.png)
 ![alt-tag](outs/simon_ascii.png)
 
