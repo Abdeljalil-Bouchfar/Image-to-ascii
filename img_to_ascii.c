@@ -6,7 +6,7 @@ int main(int ac, char **av)
     // Ensure proper usage
     if (ac != 2)
     {
-        fprintf(stderr, "Usage: ./img_to_ascii infile\n");
+        fprintf(stderr, "Usage: ./\"Program name\" \"Your image\"\n");
         return 1;
     }
     return (img_to_ascii(av[1]));
@@ -42,7 +42,8 @@ int img_to_ascii(char *img_path)
     //Calculate image size
     size_t img_size = (width * height * channels) - channels;
 
-    // After Load the image, convert it to gray
+    // After Load the image, convert each pixel to gray 
+	// then put an ascii char that match the gray grtade in the txt file
     int pexel = 0;
     for (unsigned char *p = image; p < image + img_size; p += channels)
     {
@@ -64,7 +65,7 @@ int img_to_ascii(char *img_path)
 
     // Free the out path string
     free(out_path);
-
+	fprintf(stderr, "Your Image has been successfully converted to ASCII\nPath: \"%s\"\n",out_path);
     return (0);
 }
 
@@ -83,7 +84,7 @@ char    *get_out_path(char *img_path)
     j = 0;
     l = 9;
     sufix = ".txt";
-    prefix = "outs/";
+    prefix = "outs";
 
 
     create_folder("outs");
