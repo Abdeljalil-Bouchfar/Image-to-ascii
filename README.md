@@ -37,7 +37,7 @@ simon.png            |  simon.txt
 
 elon-musk.png            |  elon-musk.txt
 :-------------------------:|:-------------------------:
-![](images/elon-musk.png)  |  ![](outs/elon_musk_ascii.png.png)
+![](images/elon-musk.png)  |  ![](outs/elon_musk_ascii.png)
 
 ---
 
