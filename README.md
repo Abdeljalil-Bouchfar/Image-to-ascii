@@ -1,6 +1,8 @@
 # Image-to-ascii
 Convert images to ASCII art.
 
+### This program using [stb](https://github.com/nothings/stb) library to load images.
+
 ## Usage
 
 ```
